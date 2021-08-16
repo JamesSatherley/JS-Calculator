@@ -8,7 +8,7 @@
     <link 
         rel="stylesheet" 
         type="text/css" 
-        href="css.css"
+        href="style.css"
     >
     <link 
         rel="icon" 
@@ -23,14 +23,12 @@
 
 <body onkeydown="key(event)">
 
-    <script src="js.js"></script>
+    <script src="main.js"></script>
 
     <b>
         <div id="calculator">
             <div id="screen">
-                <p id="answer">
-                    
-                </p>
+                <p id="answer"></p>
             </div>
             <button id="pointless_1"></button>
             <button id="pointless_2"></button>
@@ -51,7 +49,7 @@
             <button id="equal" onclick="tally()">=</button>
             <button id="minus" onclick="operation('-')">-</button>
             <button id="divide" onclick="operation('/')">/</button>
-            <button id="multiply" onclick="operation('x')">X</button>         
+            <button id="multiply" onclick="operation('x')">X</button>
         </div>
     </b>
 </body>

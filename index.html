@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Lock & Unlock
+    </title>
+    <link 
+        rel="stylesheet" 
+        type="text/css" 
+        href="css.css"
+    >
+    <link 
+        rel="icon" 
+        type="image/x-icon" 
+        href="favicon.png"
+    >
+    <link 
+        href="https://fonts.googleapis.com/css?family=Fahkwang" 
+        rel="stylesheet"
+    >
+</head>
+
+<body onkeydown="key(event)">
+
+    <script src="js.js"></script>
+
+    <b>
+        <div id="calculator">
+            <div id="screen">
+                <p id="answer">
+                    
+                </p>
+            </div>
+            <button id="pointless_1"></button>
+            <button id="pointless_2"></button>
+            <button id="pointless_3"></button>
+            <button id="pointless_4"></button>
+            <button id="clear" onclick="cleared()">C</button>
+            <button id="number_1" onclick="number('1')">1</button>
+            <button id="number_2" onclick="number('2')">2</button>
+            <button id="number_3" onclick="number('3')">3</button>
+            <button id="number_4" onclick="number('4')">4</button>
+            <button id="number_5" onclick="number('5')">5</button>
+            <button id="number_6" onclick="number('6')">6</button>
+            <button id="number_7" onclick="number('7')">7</button>
+            <button id="number_8" onclick="number('8')">8</button>
+            <button id="number_9" onclick="number('9')">9</button>
+            <button id="number_0" onclick="number('0')">0</button>
+            <button id="plus" onclick="operation('+')">+</button>
+            <button id="equal" onclick="tally()">=</button>
+            <button id="minus" onclick="operation('-')">-</button>
+            <button id="divide" onclick="operation('/')">/</button>
+            <button id="multiply" onclick="operation('x')">X</button>         
+        </div>
+    </b>
+</body>
+
+</html>

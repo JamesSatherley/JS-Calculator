@@ -1,3 +1,3 @@
-# JS-Calculator
+# JS Based Calculator
 
-A simple calculator I made a few years back
+A very simple calculator made a few years back, now used as an example to teach friends to code
